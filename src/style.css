@@ -6,7 +6,7 @@ h1 {
   margin-bottom: 0;
 }
 body {
-  background: whitesmoke;
+  background-image: url(/src/Images/cloud.jpg);
 }
 ul {
   margin: 0;
@@ -23,14 +23,13 @@ li::first-letter {
   text-transform: capitalize;
 }
 .weather-app-wrapper {
-  max-width: 600px;
+  max-width: 1000px;
   margin: 30px auto;
 }
 .weather-app {
   padding: 20px;
   border: 1px solid #dadde1;
-  border-radius: 5px;
-  background-image: url(/src/Images/cloud.jpg);
+  border-radius: 50px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -59,7 +58,7 @@ a {
   text-decoration: none;
 }
 .float-left .active {
-  color: rgb(33, 33, 33);
+  color: rgb(236, 100, 37);
   cursor: default;
 }
 .float-left .active hover {
@@ -75,7 +74,7 @@ a {
   opacity: 0.5;
 }
 .weather-forecast-temperature-min {
-  opacity: 0.5;
+  opacity: 0.9;
 }
 .weather-forecast-temperature {
   font-size: 15px;
